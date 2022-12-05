@@ -1,0 +1,185 @@
+body{
+    background-color:#E7EEF0;
+}
+
+h1{
+    font-family:'Bodoni 72', 'sans-serif';
+    font-size:70px;
+    font-weight:bold;
+}
+
+.text{
+    font-family:'Bodoni 72', 'sans-serif';
+    font-size:18px;
+}
+
+.special{
+    height:500px;
+}
+
+.ordinary{
+    height: 242.5px;
+}
+
+.no-gutters{
+    margin-top:-8px;
+}
+
+.container-fluid {
+    padding: 0; 
+    margin-top: 0; 
+    margin-left:0;
+    margin-bottom:0;
+    margin-right:0;
+    /* border: 2px solid black; */
+    padding: 4rem 2rem 5rem 2rem;
+    /* margin: 0; */
+    width: 100%;
+    background-color:#E7EEF0;
+}
+
+.cell {
+    /* min-height: 500px; */
+    /* border: 2px solid green; */
+    margin: 15px;
+    border-radius:10px;
+}
+
+.hide {
+    position: absolute;
+    display: none;
+    z-index:1;
+    font-family:'Bodoni 72', 'sans-serif';
+    font-size:30px;
+    font-weight:bold;
+    color:black;
+    -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+    /* background-color: white; */
+    padding: 0px 20px;
+    border-radius: 20px;
+}
+
+.image-blackened:hover+.hide{
+    display: block;
+}
+
+
+.image-blackened:hover{
+    -webkit-filter:blur(6px);
+    filter: white blur(4px); /* IE 6-9 */
+    opacity:0.9;
+    -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+    /* filter: blur(4px); */
+}
+
+
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+
+.fill img {
+    object-fit: cover;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%
+}
+
+.fill img:hover {
+    object-fit: cover;
+    flex-shrink: 0;
+    width: 115%;
+    height: 110%;
+    -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+}
+
+
+.weird-one{
+    font-size:200px;
+    bottom: 45% !important;
+    left: 92% !important;
+}
+
+.second{
+    bottom:-10% !important;
+}
+
+.btn {
+    position: absolute;
+    bottom: -5%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+
+  .btn:hover {
+    position: absolute;
+    bottom: -5%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  }
+  
+
+.explore-text{
+    /* display:block !important; */
+    text-align: right;
+    font-family:'Bodoni 72', 'sans-serif';
+    font-size:35px;
+    font-weight:bold;
+    line-height:40px;
+    /* margin-left:-80px; */
+    /* padding-right:10px; */
+    /* background-color:black; */
+    color:white;
+}
+
+.fill-explore{
+    background-color:black;
+    text-align:right;
+    padding:20px;
+}
+
+h3{
+    font-size:65px;
+    font-weight:bold;
+}
+
